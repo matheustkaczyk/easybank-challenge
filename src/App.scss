@@ -8,4 +8,14 @@ header {
 .presentation {
   display: flex;
   flex-direction: column;
+
+  .hero-images {
+    background-image: url('./images/bg-intro-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  img {
+    width: 100%;
+  }
 }
