@@ -1,5 +1,5 @@
 import logo from '../images/logo.svg';
-import menu from '../images/icon-hamburguer.svg';
+import menu from '../images/icon-hamburger.svg';
 
 export const Header = () => {
   return (
