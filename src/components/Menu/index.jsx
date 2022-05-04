@@ -1,6 +1,6 @@
 export const MenuHamburger = () => {
   return (
-    <nav className="nav-closed">
+    <nav id="menu">
       <ul>
         <li><a>Home</a></li>
         <li><a>About</a></li>
