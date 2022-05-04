@@ -35,11 +35,12 @@ nav {
   position: fixed;
   width: 80vw;
   height: 30vh;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   z-index: 101;
   transition: all 0.5s;
   margin: 15% 15% 15% 15%;
   border-radius: 10px;
+  border: solid black 1px;
   transform: translateX(+1000%);
 
   ul {
@@ -67,11 +68,11 @@ nav {
     background-image: url('./images/bg-intro-mobile.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 80vh;
+    max-height: 85vh;
 
     img {
       width: 100vw;
-      max-height: 95vh;
+      max-height: 100vh;
       transform: translateY(-25%);
       overflow: hidden;
     }
@@ -140,6 +141,10 @@ nav {
       width: 60vw;
       height: 30vh;
       border-radius: 10px 10px 0 0;
+    }
+
+    span {
+      color: grey;
     }
 
     p {

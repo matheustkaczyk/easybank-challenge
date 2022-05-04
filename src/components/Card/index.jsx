@@ -3,7 +3,7 @@ export const Card = ({ img, author, title, description }) => {
     <div className="article-card">
       <img src={img} alt="card-image" />
       <div>
-        {`By ${author}`}
+        <span>{`By ${author}`}</span>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
