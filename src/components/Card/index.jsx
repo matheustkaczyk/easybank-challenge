@@ -1,6 +1,6 @@
 export const Card = ({ img, author, title, description }) => {
   return(
-    <div>
+    <div className="article-card">
       <img src={img} alt="card-image" />
       <div>
         {`By ${author}`}
