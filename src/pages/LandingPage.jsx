@@ -1,4 +1,5 @@
 import { Header } from "../components/Header"
+import { Information } from "../components/Information"
 import { Presentation } from "../components/Presentation"
 
 export const LandingPage = () => {
@@ -6,6 +7,7 @@ export const LandingPage = () => {
     <main>
       <Header />
       <Presentation />
+      <Information />
     </main>
   )
 }
