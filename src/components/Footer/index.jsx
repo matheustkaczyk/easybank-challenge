@@ -1,4 +1,3 @@
-import logo from '../../images/logo.svg';
 import facebook from '../../images/icon-facebook.svg';
 import youtube from '../../images/icon-youtube.svg';
 import instagram from '../../images/icon-instagram.svg';
@@ -9,8 +8,7 @@ import { Button } from '../Button';
 export const Footer = () => {
   return (
     <footer>
-      <img src={logo} alt="easybank logo"/>
-      <div>
+      <div className="social">
         <img src={facebook} alt="facebook icon" />
         <img src={youtube} alt="youtube icon" />
         <img src={twitter} alt="twitter icon" />
@@ -25,7 +23,11 @@ export const Footer = () => {
         <li><a>Support</a></li>
         <li><a>Privacy Policy</a></li>
       </ul>
-      <Button text='Request invite' type="button" />
+      <Button text='Request invite' type="button" classN="button" />
+      <div className="rights">
+        <p>© 2022 Easybank. All rights reserved.</p>
+        <p>{'Feito com <3 por Matheus Tkaczyk'}</p>
+      </div>
     </footer>
   )
 }

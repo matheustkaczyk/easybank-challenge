@@ -8,6 +8,15 @@ h3 {
   color: $title-color;
 }
 
+.button {
+  width: 30%;
+  background-image: linear-gradient(to right, #32D368, #2DB4D7);
+  padding: 3%;
+  border: 0;
+  border-radius: 80px;
+  color: white;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -47,15 +56,6 @@ header {
     align-items: center;
     color: grey;
     padding: 2%;
-
-    button {
-      width: 30%;
-      background-image: linear-gradient(to right, #32D368, #2DB4D7);
-      padding: 3%;
-      border: 0;
-      border-radius: 80px;
-      color: white;
-    }
   }
 }
 
@@ -118,4 +118,39 @@ header {
       color: grey;
     }
 }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2D314E;
+  margin-top: 10%;
+
+  .logo-footer {
+    fill: white;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin-top: 5%;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      color: white;
+      margin-top: 10%;
+      font-weight: lighter;
+    }
+  }
+
+  .rights {
+    color: grey;
+    font-size: smaller;
+  }
 }
