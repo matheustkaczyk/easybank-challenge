@@ -4,7 +4,7 @@ import { Button } from '../Button';
 export const Presentation = () => {
   return (
     <div className="presentation">
-      <div>
+      <div className="hero-images">
         <img src={phones} alt="phone-mockups" />
       </div>
       <div>
