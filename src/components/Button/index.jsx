@@ -1,4 +1,4 @@
-export const Button = (text, type, disabled) => {
+export const Button = ({ text, type, disabled }) => {
   return (
     <button
       type={type}
