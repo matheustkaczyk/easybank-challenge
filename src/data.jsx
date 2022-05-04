@@ -1,4 +1,4 @@
-export default data =  [
+export const data =  [
   {
   "image": "../../images/image-currency.jpg",
   "author": "Claire Robinson",
