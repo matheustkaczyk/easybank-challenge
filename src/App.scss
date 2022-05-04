@@ -1,5 +1,13 @@
 $title-color: #323241;
 
+h1 {
+  color: $title-color;
+}
+
+h3 {
+  color: $title-color;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -49,10 +57,6 @@ header {
       color: white;
     }
   }
-
-  h1 {
-    color: $title-color;
-  }
 }
 
 .information {
@@ -60,6 +64,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #F8F9FF;
 
   div {
     display: flex;
@@ -72,6 +77,10 @@ header {
     img {
       width: 20%;
       height: auto;
+    }
+
+    p {
+      color: grey;
     }
   }
 }
