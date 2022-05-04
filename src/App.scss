@@ -27,7 +27,33 @@ header {
   .menu {
     float: right;
     margin-right: 8%;
+    cursor: pointer;
   }
+}
+
+nav {
+  position: fixed;
+  width: 80vw;
+  height: 40vh;
+  background-color: white;
+  z-index: 101;
+  transition: all 0.5s;
+  margin: 15% 15% 15% 15%;
+  border-radius: 10px;
+
+  ul {
+    list-style: none;
+
+    li {
+      font-size: larger;
+      font-weight: 200;
+    }
+  }
+}
+
+.nav-closed {
+  transform: translateX(-1000%);
+  transition: all 0.5s;
 }
 
 .presentation {
