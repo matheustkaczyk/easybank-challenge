@@ -21,7 +21,14 @@ header {
     background-image: url('./images/bg-intro-mobile.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 70vh;
+    max-height: 80vh;
+
+    img {
+      width: 100vw;
+      max-height: 95vh;
+      transform: translateY(-25%);
+      overflow: hidden;
+    }
   }
 
   .hero-text {
@@ -31,6 +38,7 @@ header {
     text-align: center;
     align-items: center;
     color: grey;
+    padding: 2%;
 
     button {
       width: 30%;
@@ -40,11 +48,6 @@ header {
       border-radius: 80px;
       color: white;
     }
-  }
-
-  img {
-    width: 100%;
-    transform: translateY(-25%);
   }
 
   h1 {
