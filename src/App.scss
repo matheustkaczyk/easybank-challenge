@@ -1,8 +1,14 @@
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: fixed;
+  width: 100%;
   padding: 4%;
+  z-index: 100;
+  background-color: white;
+
+  .menu {
+    float: right;
+    margin-right: 8%;
+  }
 }
 
 .presentation {
@@ -17,5 +23,6 @@ header {
 
   img {
     width: 100%;
+    transform: translateY(-25%);
   }
 }
