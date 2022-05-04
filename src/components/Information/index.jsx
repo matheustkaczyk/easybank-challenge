@@ -5,7 +5,7 @@ import api from '../../images/icon-api.svg';
 
 export const Information = () => {
   return (
-    <session className="information">
+    <section className="information">
       <div>
         <h1>Why choose Easybank?</h1>
         <p>We leverage Open Banking to turn your bank account into your finantial hub.
@@ -38,6 +38,6 @@ export const Information = () => {
           Manage your savings, investments, pension and much more from one account. Tracking your money has never been easier.
         </p>
       </div>
-    </session>
+    </section>
   )
 }
