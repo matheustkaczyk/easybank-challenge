@@ -8,8 +8,7 @@ export const Articles = () => {
       {
         data.map(({ image, author, title, description }) => {
           return <Card key={title} img={image} author={author} title={title} description={description}/>
-          }
-        )
+        })
       }
     </section>  
   )

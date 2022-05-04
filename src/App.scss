@@ -86,3 +86,36 @@ header {
     }
   }
 }
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #FAFAFA;
+
+  .article-card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 60vw;
+    background-color: #FFFFFF;
+    margin-top: 2%;
+
+    div {
+      padding: 5%;
+    }
+
+    img {
+      width: 60vw;
+      height: 30vh;
+      border-radius: 10px 10px 0 0;
+    }
+
+    p {
+      width: 100%;
+      color: grey;
+    }
+}
+}
