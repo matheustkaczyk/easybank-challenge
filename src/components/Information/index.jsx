@@ -5,7 +5,7 @@ import api from '../../images/icon-api.svg';
 
 export const Information = () => {
   return (
-    <session>
+    <session className="information">
       <div>
         <h1>Why choose Easybank?</h1>
         <p>We leverage Open Banking to turn your bank account into your finantial hub.
