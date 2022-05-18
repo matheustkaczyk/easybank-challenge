@@ -1,5 +1,9 @@
 $title-color: #323241;
 
+html {
+  overflow-x: hidden;
+}
+
 h1 {
   color: $title-color;
 }
@@ -65,7 +69,7 @@ nav {
   margin-left: 60%;
   margin-top: 11%;
   border-radius: 5px;
-  transform: translateX(+100%);
+  transform: translateX(+1000%);
 
   ul {
     list-style: none;
@@ -212,5 +216,50 @@ footer {
   .rights {
     color: grey;
     font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5%;
+
+    .nav {
+      display: flex;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    .button {
+      display: unset;
+    }
+  }
+
+  .presentation {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .hero-images {
+      background-image: url('./images/bg-intro-mobile.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+  
+      img {
+        width: 50vw;
+        overflow: hidden;
+        transform: translateX(+20%);
+      }
+    }
+
+    .hero-text {
+      margin-top: 5%;
+      padding: 7%;
+    }
   }
 }
