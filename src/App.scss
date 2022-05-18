@@ -214,8 +214,16 @@ footer {
   }
 
   .rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: grey;
     font-size: smaller;
+
+    button {
+      width: 50%;
+    }
   }
 }
 
@@ -237,6 +245,8 @@ footer {
 
     .button {
       display: unset;
+      padding: 1%;
+      width: 10%;
     }
   }
 
@@ -275,27 +285,40 @@ footer {
     }
   }
 
-.articles {
-  display: flex;
-  flex-direction: column;
-
-  .articles-wrapper {
+  .articles {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 5%;
-    padding-right: 5%;
+    flex-direction: column;
 
-    .article-card {
-      width: 20%;
-      
-      img {
-        width: 100%;
-        height: 200px;
+    .articles-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-left: 5%;
+      padding-right: 5%;
+
+      .article-card {
+        width: 20%;
+        
+        img {
+          width: 100%;
+          height: 200px;
+        }
       }
     }
   }
 
-}
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+    ul {
+      padding: 3%;
+    }
+
+    .social {
+      margin-top: unset;
+      width: 30%;
+    }
+  }
 }

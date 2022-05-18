@@ -23,8 +23,8 @@ export const Footer = () => {
         <li><a>Support</a></li>
         <li><a>Privacy Policy</a></li>
       </ul>
-      <Button text='Request invite' type="button" classN="button" />
       <div className="rights">
+        <Button text='Request invite' type="button" classN="button" />
         <p>© 2022 Easybank. All rights reserved.</p>
         <p>{'Feito com <3 por Matheus Tkaczyk'}</p>
       </div>
