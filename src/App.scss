@@ -19,15 +19,39 @@ h3 {
 
 header {
   position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   padding: 4%;
   z-index: 100;
   background-color: white;
 
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: none;
+
+    li {
+      margin-left: 5%;
+      color: grey;
+    }
+  }
+
   .menu {
     float: right;
     margin-right: 8%;
     cursor: pointer;
+  }
+
+  .button {
+    display: none;
+    width: 20%;
+    padding: 2%;
   }
 }
 
