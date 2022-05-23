@@ -41,7 +41,7 @@ Para rodar esse projeto é necessário ter instalado em sua máquina o runtime N
 
 3. Instale as dependências do projeto digitando **`npm install`** em seu terminal
 
-4. Para rodar a aplicação digite ***`npm run dev`* em seu terminal
+4. Para rodar a aplicação digite **`npm run dev`** em seu terminal
 
  ## **Utilização online**
  
