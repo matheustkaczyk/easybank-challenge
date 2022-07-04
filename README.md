@@ -55,7 +55,7 @@ Para rodar esse projeto é necessário ter instalado em sua máquina o runtime N
 
 Obrigado por ter lido até aqui!
 
-Eu me chamo Matheus, e sou desenvolvedor web fullstack. Comecei meus estudos no ano de 2020 e estou me apaixonando cada dia que passa, através dos estudos, por tecnologia e desenvolvimento. Esse projeto e esse README foram desenvolvidos como um desafio técnico. Eu empenhei muito carinho na construção de cada linha.
+Eu me chamo Matheus, e sou desenvolvedor web fullstack. Comecei meus estudos no ano de 2020 e estou me apaixonando cada dia que passa, através dos estudos, por tecnologia e desenvolvimento. Esse projeto e esse README foram desenvolvidos como um desafio pessoal. Eu empenhei muito carinho na construção de cada linha.
 
 [Você pode olhar mais dos meus repositórios aqui](https://github.com/matheustkaczyk)
 
